@@ -1,0 +1,75 @@
+{
+  "program": {
+    "fileInfos": {
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.d.ts": {
+        "version": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0",
+        "signature": "49ff9798f592c8b7e628fd881401e68810c1b3589ecd7a41b32b3c287374cde0"
+      },
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1",
+        "signature": "ff5688d6b2fcfef06842a395d7ff4d5730d45b724d4c48913118c889829052a1"
+      },
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f",
+        "signature": "2d53f3741e5a4f78a90f623387d71a1cc809bb258f10cdaec034b67cbf71022f"
+      },
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts": {
+        "version": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b",
+        "signature": "fe4e59403e34c7ff747abe4ff6abbc7718229556d7c1a5b93473fb53156c913b"
+      },
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.scripthost.d.ts": {
+        "version": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9",
+        "signature": "b9faa17292f17d2ad75e34fac77dd63a6403af1dba02d39cd0cbb9ffdf3de8b9"
+      },
+      "../pkg1/lib/foo.d.ts": {
+        "version": "415c4e4c676353a6933e47b6d04827dca0aa307d4a589116b246183b5b34e94a",
+        "signature": "415c4e4c676353a6933e47b6d04827dca0aa307d4a589116b246183b5b34e94a"
+      },
+      "../pkg1/lib/index.d.ts": {
+        "version": "db3b93a13aa6dda28d053999e7113344f707251bd2102144ab3adef24a52243a",
+        "signature": "db3b93a13aa6dda28d053999e7113344f707251bd2102144ab3adef24a52243a"
+      },
+      "./src/index.ts": {
+        "version": "6d96ec3b817c4fcf5ad71180af53c34736538d33e85044663c590f894bd88767",
+        "signature": "d8a6ab2d4d02d6893c7f68b3b14ba145eb4117c8b5b0a3a54127f3f4d4277262"
+      }
+    },
+    "options": {
+      "target": 1,
+      "module": 1,
+      "declaration": true,
+      "declarationMap": true,
+      "sourceMap": true,
+      "strict": true,
+      "composite": true,
+      "esModuleInterop": true,
+      "outDir": "./lib",
+      "rootDir": "./src",
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "../pkg1/lib/index.d.ts": [
+        "../pkg1/lib/foo.d.ts"
+      ],
+      "./src/index.ts": [
+        "../pkg1/lib/index.d.ts"
+      ]
+    },
+    "exportedModulesMap": {
+      "../pkg1/lib/index.d.ts": [
+        "../pkg1/lib/foo.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.d.ts",
+      "../pkg1/lib/foo.d.ts",
+      "../pkg1/lib/index.d.ts",
+      "./src/index.ts",
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.es5.d.ts",
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.dom.d.ts",
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../../../../.nvm/versions/node/v8.16.0/lib/node_modules/typescript/lib/lib.scripthost.d.ts"
+    ]
+  },
+  "version": "3.6.3"
+}
